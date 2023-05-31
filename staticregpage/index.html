@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <style>
+        .body{
+            text-align: center;
+        }
+      label {
+        display: block;
+        margin-top: 10px;
+        font-size: x-large;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 250px;
+        padding: 5px;
+      }
+
+      input[type="submit"] {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <h2>Registration Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        required
+      /> </br>
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
