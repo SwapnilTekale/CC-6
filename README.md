@@ -1,2 +1,2 @@
 # CC
-Design and develop custom web application in a PaaS environment. 
+Cloud Computing and WAD practicals for 6th sem Information Technology SPPU
