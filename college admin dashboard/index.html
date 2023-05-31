@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College Admin Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+      }
+
+      .card {
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 300px;
+      }
+
+      .card h3 {
+        margin-top: 0;
+      }
+
+      @media screen and (max-width: 768px) {
+        .container {
+          justify-content: center;
+        }
+
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>College Admin Dashboard</h1>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h3>Total Students</h3>
+        <p>500</p>
+      </div>
+
+      <div class="card">
+        <h3>Total Courses</h3>
+        <p>30</p>
+      </div>
+
+      <div class="card">
+        <h3>Total Staff</h3>
+        <p>50</p>
+      </div>
+
+      <div class="card">
+        <h3>Total Departments</h3>
+        <p>10</p>
+      </div>
+    </div>
+  </body>
+</html>
